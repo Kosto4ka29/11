@@ -1,8 +1,18 @@
 import React from 'react';
+import Hero from './components/Hero/Hero.js';
+import SearchForm from './components/SearchForm/SearchForm.js';
+import List from './components/List/List.js';
+import Container from './components/Container/Container.js';
+
+
 
 const App = () => {
   return (
-    <h1>Hello world</h1>
+    <Container>
+      <Hero />
+      <SearchForm />
+      <List />
+    </Container>
   );
 };
 
